@@ -18,20 +18,25 @@ git branch -M main
 git remote add origin https://github.com/Ahrin-Yuan/robofriendsVite-Deploy.git
 git push -u origin main"
 
-## 3. In your already created Vite Project folder, Run `git init` in your Terminal. .git folder will appear in your Vite Project folder.
+## 3. Run `git init`
+In your already created Vite Project folder, Run `git init` in your Terminal. .git folder will appear in your Vite Project folder.
 
 ## 4. Then just run the following given code in your terminal :
 `git add .`
+
 `git commit -m "first commit"`
+
 `git branch -M main`
+
 `git remote add origin https://github.com/Ahrin-Yuan/robofriendsVite-Deploy.git`
+
 `git push -u origin main"`
 
 
 
 # Setting gh-pages
-run `npm install gh-pages --s
-ave-dev`
+run `npm install gh-pages --save-dev`
+
 
 # SideNote (Don't Forget):
 ### Add "Base" in *vite.config.js*
@@ -55,7 +60,9 @@ export default defineConfig({
 
 ## 5. run this in your terminal:
 `git add .`
+
 `git commit -m ""`
+
 `git push`
 
 
